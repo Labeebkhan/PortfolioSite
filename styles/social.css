@@ -1,0 +1,50 @@
+.social{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    column-gap: 6%;
+    margin: 12% 0% 0% 8%;
+}
+.social-box{
+    width: 100%;
+    height:105%;
+    border-color: black;
+    border: 1px solid black;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.user_profile_pic{
+    border-radius: 10px;
+}
+.profilepic{
+    width: 100%;
+    height: 32vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+}
+.profilepic_link{
+    width: 100%;
+    height: 32vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(9, 100, 212);
+}
+.user{
+    font-size: 14px;
+    font-weight: bold;
+    margin:15px 0px 15px 10px ;
+}
+.button-social{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(243, 139, 41);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    color: white;
+    cursor: pointer;
+    margin: 10px 0px 0px 10px;
+  }
+  #SocialMedia{
+    scroll-margin-top: 200px;
+}
