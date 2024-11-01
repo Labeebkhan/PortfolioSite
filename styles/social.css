@@ -9,7 +9,6 @@
     height:105%;
     border-color: black;
     border: 1px solid black;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
 .user_profile_pic{
@@ -47,4 +46,10 @@
   }
   #SocialMedia{
     scroll-margin-top: 200px;
+}
+.social-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9); 
+    background-color: rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
 }
