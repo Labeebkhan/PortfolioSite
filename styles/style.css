@@ -47,7 +47,61 @@ li{
     color: #000;
     text-decoration: none;
 }
+.check{
+    display: none;
+}
+.check i{
+    color: white;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
 a{
     color: white;
     text-decoration: none;
+}
+@media (max-width:992px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+    }
+    .left{
+        margin-left:50px;
+        font-size: 25px;
+    }
+    .right,.nav-button{
+        display: none;
+    }
+    .check,.check i{
+        margin-right: 20px;
+        display: block;
+        font-size: 34px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+    } .left  {
+        font-size: 25px; /* Adjust logo text size */
+        margin: 0px 50px;
+    }
+    .check i {
+        font-size: 28px; /* Adjust icon size */
+        margin-right: 20px;
+    }
+} 
+@media (max-width: 576px) {
+    .left {
+        font-size: 25px; /* Further reduce logo text size */
+        margin-left: 30px;
+    }
+    .check i {
+        font-size: 28px; /* Adjust icon size */
+        margin-right: 10px;
+    }
 }
