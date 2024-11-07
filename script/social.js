@@ -1,33 +1,5 @@
-let social = [
-    {
-        image: 'pic/facebook.png',
-        name: 'Facebook Profile',
-        link: 'https://www.facebook.com/labeebkhan3211',
-        alternative: 'facebook-logo',
-        css:'profilepic'
-    },
-    {
-        image: 'pic/instagram.avif',
-        name: 'Instagram Profile',
-        link: 'https://www.instagram.com/',
-        alternative: 'instagram-logo'
-        ,css:'profilepic'
-    },
-    {
-        image: 'pic/git.png',
-        name: 'Git Hub',
-        link: 'https://github.com/Labeebkhan',
-        alternative: 'github-logo',
-        css:'profilepic'
-    },
-    {
-        image: 'pic/linkedin-.webp',
-        name: 'LinkedIn Profile',
-        link: 'https://www.linkedin.com/in/labeeb-khan-57320622a/',
-        alternative: 'linkedin-logo',
-        css:'profilepic_link'
-    }
-];
+import {social} from '../script/socialLIST.js';//this is done by using the concept of module
+//this will help to over come naming convention issues ,Better Way to organize your Project when larger
 
 let html = '';
 social.forEach((profile) => {
