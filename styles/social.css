@@ -1,8 +1,9 @@
 .social{
     display: grid;
-    grid-template-columns: repeat(4, 223px);
+    grid-template-columns: repeat(3, 18vw);
     column-gap: 6%;
-    margin: 12% 0% 0% 8%;
+    margin: 12% 0% 0% 0%;
+    justify-content: center;
 }
 .social-box{
     width: 100%;

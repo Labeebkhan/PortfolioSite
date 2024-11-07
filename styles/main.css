@@ -74,3 +74,104 @@
     background-color: rgb(243, 139, 41); 
     transition: all 0.3s ease; 
 }
+/* Applied Media Querry to Home Page */
+
+@media (max-width: 600px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+    }
+
+    .left-main h2 {
+        margin: 0px 20px;
+        font-size: 25px;
+    }
+
+    .left-main p {
+        margin: 10px 20px;
+        font-size: 13px;
+    }
+
+    .Button-left {
+        margin: 15px 20px 0px;
+        flex-direction: column;
+    }
+
+    .button-left-main, .button-left2-main {
+        width: 100%;
+    }
+
+    .img-main {
+        width: 70%;
+        border-radius: 100px;
+    }
+}
+
+/* For screens from 600px to 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding-top: 130px;
+    }
+
+    .left-main h2 {
+        margin: 0px 40px;
+        font-size: 26px;
+    }
+
+    .left-main p {
+        margin: 10px 40px;
+        font-size: 18px;
+    }
+
+    .img-main {
+        display: none;
+        margin-top: 50px;
+    }
+    .Button-left {
+        margin-left: 40px;
+    }
+}
+
+/* For screens from 900px to 1200px */
+@media (min-width: 900px) and (max-width: 1200px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 120px;
+    }
+
+    .left-main h2 {
+        margin: 0px 70px;
+    }
+
+    .left-main p {
+        margin: 15px 0px 15px 70px;
+    }
+
+    .img-main {
+        width: 50%;
+    }
+    .Button-left {
+        margin-left: 70px;
+    }
+}
+
+/* For screens 1200px and above */
+@media (min-width: 1200px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 140px;
+    }
+
+    .left-main h2 {
+        margin: 0px 100px;
+    }
+
+    .left-main p {
+        margin: 15px 0px 15px 100px;
+    }
+
+    .img-main {
+        width: 45%;
+    }
+}
