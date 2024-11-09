@@ -88,11 +88,11 @@ a{
         margin:auto;
     } .left  {
         font-size: 25px; /* Adjust logo text size */
-        margin: 0px 50px;
+        margin: 0px 20px;
     }
     .check i {
         font-size: 28px; /* Adjust icon size */
-        margin-right: 20px;
+        margin: 0;
     }
 } 
 @media (max-width: 576px) {

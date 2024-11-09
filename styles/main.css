@@ -79,31 +79,45 @@
 @media (max-width: 600px) {
     .main {
         grid-template-columns: 1fr;
-        padding-top: 50px;
+        padding-top: 150px;
+        margin-bottom: 110px;
     }
 
     .left-main h2 {
         margin: 0px 20px;
-        font-size: 25px;
+        padding-bottom: 30px;
+        font-size: 50px;
     }
-
+    span.labeeb{
+        font-size: 50px;
+    }
+    span.hi{
+        font-size: 40px;
+    }
+    span.profession{
+        font-size: 40px;
+    }
     .left-main p {
         margin: 10px 20px;
-        font-size: 13px;
+        font-size: 22px;
     }
 
     .Button-left {
-        margin: 15px 20px 0px;
+        margin: 15px 20px 10px;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .button-left-main, .button-left2-main {
         width: 100%;
+        padding: 20px;
+        margin: 12px 0px 0px 0px;
+        font-size: 20px;
     }
 
     .img-main {
-        width: 70%;
-        border-radius: 100px;
+        display: none;
     }
 }
 
@@ -126,10 +140,10 @@
 
     .img-main {
         display: none;
-        margin-top: 50px;
     }
     .Button-left {
         margin-left: 40px;
+
     }
 }
 

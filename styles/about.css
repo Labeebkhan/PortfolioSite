@@ -8,7 +8,8 @@
   
 .about-left-img{
     display: flex;
-    
+    justify-content:left;
+    align-items: center;
 }
 .about-left-img img{
         width: 18vw;
@@ -43,3 +44,138 @@
 #about{
     scroll-margin-top: 45px;
 }
+
+/* Large Desktop view (1200px and above) */
+@media (min-width: 1200px) {
+    .about {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 128px;
+        padding: 9% 8%;
+    }
+  
+    .about-left-img img {
+        width: 18vw;
+    }
+  
+    .headings {
+        font-size: 40px;
+    }
+
+    .about-right-content h3 {
+        font-size: 62px;
+    }
+
+    .about-right-content p {
+        font-size: 15px;
+    }
+}
+
+/* Desktop view (992px - 1199px) */
+@media (max-width: 1199px) {
+    .about {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 96px;
+        padding: 8% 6%;
+    }
+  
+    .about-left-img img {
+        width: 22vw;
+    }
+  
+    .headings {
+        font-size: 36px;
+    }
+
+    .about-right-content h3 {
+        font-size: 52px;
+    }
+
+    .about-right-content p {
+        font-size: 14px;
+    }
+}
+
+/* Tablet view (768px - 991px) */
+@media (max-width: 900px) {
+    .about {
+        grid-template-columns: 1fr;
+        margin-top: 64px;
+        padding: 12% 5%;
+    }
+  
+    .about-left-img {
+        justify-content: center;
+    }
+
+    .about-left-img img {
+        width: 28vw;
+        margin-bottom: 70px;
+    }
+  
+    .about-right-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .headings {
+        font-size: 28px;
+    }
+
+    .about-right-content h3 {
+        font-size: 32px;
+    }
+
+    .about-right-content p {
+        font-size: 14px;
+        text-align:justify;
+    }
+}
+
+/* Mobile view (480px - 767px) */
+@media (max-width: 767px) {
+    .about {
+        margin-top: 32px;
+        padding: 15% 4%;
+    }
+
+    .about-left-img img {
+        width: 30vw;
+    }
+
+    .headings {
+        font-size: 28px;
+    }
+
+    .about-right-content h3 {
+        font-size: 36px;
+    }
+
+    .about-right-content p {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile view (480px and below) */
+@media (max-width: 480px) {
+    .about {
+        margin-top: 24px;
+        padding: 20% 3%;
+    }
+
+    .about-left-img img {
+        width: 50vw;
+    }
+
+    .headings {
+        font-size: 24px;
+    }
+
+    .about-right-content h3 {
+        font-size: 30px;
+    }
+
+    .about-right-content p {
+        font-size: 11px;
+    }
+}
+
